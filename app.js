@@ -68,8 +68,5 @@ app.listen(process.env.PORT || 3000,function(){
 
 
 
-//API
-//ee7f25cd8549944a5a5b3fed708c6239-us5
-
 //list id
 //5f82d24bde
