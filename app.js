@@ -35,8 +35,13 @@ app.post("/",function(req,res){
     const url ="https://us5.api.mailchimp.com/3.0/lists/5f82d24bde";
     const options = {
         method: "POST",
-        auth: "manas1:ee7f25cd8549944a5a5b3fed708c6239-us5",
         auth: "manas1:ee7f25cd8549944a5a5b3fed708c6239-us5"
+    }
+
+     const url ="https://us5.api.allweather.com/3.0/lists/5f82d24bde";
+    const options = {
+        method: "GET",
+        auth: "hero12:ee7f25cd8549944a5a5b3fed708c6239"
     }
 
     const request = https.request(url, options ,function(response){
